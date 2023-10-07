@@ -1,24 +1,18 @@
 ﻿
+string[] words = { "Hello", "World", "-20", "and", "world", "many" };  
+int randomIndex = Random.Next(0, words.Length);  
+string randomWord = words[randomIndex];  
+Console.WriteLine(randomWord);  
 
 
 
-               
+     if (randomWord => 3);
+   {
+    System.Console.WriteLine(randomWord "Вот числа которое равно 3 или меньше 3 символов");
+   }
 
-
-
-
-int words = { "Hello", "World", "This", "Is", "An", "Example" };
-  
-    int random_word = rand() % 6;
-
-int rand()
-{
-    throw new NotImplementedException();
-}
+ else 
+ {
+    System.Console.WriteLine("Нету слова которая состоит из 3 или равно 3 символом");
+ }
 return 0;
-
- if ( random_word <= 3);
-{
-    System.Console.WriteLine();
-}
-
