@@ -1,4 +1,4 @@
-﻿string[] words = { "Hello", "World", "-20", "and", "world", "many" };
+string[] words = { "Hello", "World", "-20", "and", "world", "many" };
 Random random = new Random();
 int randomIndex = random.Next(0, words.Length);
 string randomWord = words[randomIndex];
@@ -9,6 +9,6 @@ if (randomWord.Length >= 3)
 }
 else
 {
-    Console.WriteLine("Сдесь больше трех символов");
+    Console.WriteLine("Здесь больше трех символов");
 }
 return 0;
