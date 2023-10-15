@@ -1,18 +1,14 @@
-﻿
-string[] words = { "Hello", "World", "-20", "and", "world", "many" };  
-int randomIndex = Random.Next(0, words.Length);  
-string randomWord = words[randomIndex];  
-Console.WriteLine(randomWord);  
-
-
-
-     if (randomWord => 3);
-   {
-    System.Console.WriteLine(randomWord "Вот числа которое равно 3 или меньше 3 символов");
-   }
-
- else 
- {
-    System.Console.WriteLine("Нету слова которая состоит из 3 или равно 3 символом");
- }
+﻿string[] words = { "Hello", "World", "-20", "and", "world", "many" };
+Random random = new Random();
+int randomIndex = random.Next(0, words.Length);
+string randomWord = words[randomIndex];
+Console.WriteLine(randomWord);
+if (randomWord.Length >= 3)
+{
+    Console.WriteLine("Here is a word that has 3 or more characters: " + randomWord);
+}
+else
+{
+    Console.WriteLine("There is no word that has 3 or more characters.");
+}
 return 0;
