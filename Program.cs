@@ -5,10 +5,10 @@ string randomWord = words[randomIndex];
 Console.WriteLine(randomWord);
 if (randomWord.Length >= 3)
 {
-    Console.WriteLine("Here is a word that has 3 or more characters: " + randomWord);
+    Console.WriteLine(  randomWord);
 }
 else
 {
-    Console.WriteLine("There is no word that has 3 or more characters.");
+    Console.WriteLine("Сдесь больше трех символов");
 }
 return 0;
